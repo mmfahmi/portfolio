@@ -8,28 +8,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg border border-primary bg-primary-subtle">
+    <nav class="navbar navbar-expand-lg bg border border-dark bg-dark-subtle">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler border-primary-sutble" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="#">Contact</a>
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </div>
           </div>
         </div>
     </nav>
-    <div class="container">
+
+    <div class="container-fluid">
         <h1 style="color: aliceblue;">Hello World</h1>
     </div>
+
+    <!--Portfolio Section Starts-->
     <div class="container">
-        <p style="color: aliceblue;">This is a paragraph</p>
+      <section>
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-dark-subtle">
+              <img src="project1.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">CRUD WEB APPLICATION</h5>
+                <p class="card-text">Development of CRUD application that connects to google sheets api using Google Apps Script (GAS) </p>
+                <a href="#" class="btn btn-dark">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark-subtle">
+              <img src="project2.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">Description of Project 2</p>
+                <a href="#" class="btn btn-dark">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark-subtle">
+              <img src="project3.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">Description of Project 3</p>
+                <a href="#" class="btn btn-dark">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <!--Portfolio Section Ends-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="client.js"></script>
 </body>
